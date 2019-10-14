@@ -1,0 +1,14 @@
+server:
+  port: 1111
+
+eureka:
+  instance:
+    #主机名称
+    hostname:  peer
+  client:
+    service-url:
+      defaultZone: http://172.16.11.81:1111/eureka/,http://172.16.11.81:1112/eureka/,http://172.16.11.81:1113/eureka/
+
+
+
+
